@@ -1,9 +1,14 @@
 # Fine-tuning Qwen2.5-0.5B untuk Asisten Andey Koiwai
 
+## Contoh hasil
+![Fine Tune](./gambar/sukses_fine_tune.png)
+![Chat](./gambar/sukses_fine_tune_chat.png)
+
+
 ### python dan VSCODE
-1 python -m venv hugface 
-2 hugface\Scripts\activate
-3 ctrl+shif+p pilih interpreter di venv kamu ya ^^
+- python -m venv hugface 
+- hugface\Scripts\activate
+- ctrl+shif+p pilih interpreter di venv kamu ya ^^
 
 ## Persyaratan Sistem
 
@@ -120,11 +125,6 @@ Jika masih OOM, kurangi:
 - **Estimasi**: 2-4 jam untuk 3 epochs
 - **Dataset**: ~45 samples Q&A
 - **Hardware**: Core i5-6300U, RAM 8GB
-
-### setPython dan VS CODE
-1 python -m venv hugface 
-2 hugface\Scripts\activate
-3 ctrl+shif+p pilih interpreter di venv kamu ya ^^
 
 ### Model Quality
 - Model akan dapat menjawab pertanyaan spesifik tentang Andey Koiwai
